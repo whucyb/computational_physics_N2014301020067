@@ -1,7 +1,7 @@
 ####Name : Chen Yebo
 ####Student Number : 2014301020067
 ## Homework List
-* [x] [Exercise_02]()
+* [x] [Exercise_02](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02.md)
 * [ ] [Exercise_03 : All levels]()
 * [ ] [Exercise_04 : Chapter 1 problem ]()
 * [ ] [Exercise_05 : Chapter 1 problem ]()
