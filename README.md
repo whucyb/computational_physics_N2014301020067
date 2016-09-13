@@ -1,7 +1,8 @@
 ####Name : Chen Yebo
 ####Student Number : 2014301020067
 ## Homework List
-* [ ] [Exercise_03 : All levels ]()
+* [x] [Exercise_02]()
+* [ ] [Exercise_03 : All levels]()
 * [ ] [Exercise_04 : Chapter 1 problem ]()
 * [ ] [Exercise_05 : Chapter 1 problem ]()
 * [ ] [Exercise_06 : Chapter 2 problem ]()
