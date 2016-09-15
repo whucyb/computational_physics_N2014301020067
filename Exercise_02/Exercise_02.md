@@ -21,7 +21,7 @@
 * 使程序可以输出所输入字母的图案
 * [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/2.py)
 
- ![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/2.png)
+![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/2.png)
 
 ## 结论
 通过练习、出错、找错、再练习，可以很好的熟悉Python的语法
