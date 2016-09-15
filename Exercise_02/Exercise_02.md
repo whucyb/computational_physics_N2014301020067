@@ -11,17 +11,11 @@
 * 通过练习熟悉并掌握python的基本语法
 
 ## 用python编写一个可以在屏幕上拼出英文名字的程序
-### 代码如下
-```
-print(' #####   #     #  #######  #     #  #     #  #######  ######    ##### ')
-print('#     #  #     #  #        ##    #   #   #   #        #     #  #     #')
-print('#        #     #  #        # #   #    # #    #        #     #  #     #')
-print('#        #######  #######  #  #  #     #     #######  ######   #     #')
-print('#        #     #  #        #   # #     #     #        #     #  #     #')
-print('#     #  #     #  #        #    ##     #     #        #     #  #     #')
-print(' #####   #     #  #######  #     #     #     #######  ######    ##### ')
-```
-### 显示结果
-![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02.jpg)
+### 方法1
+[代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/1.py)
+![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/1.png)
+### 方法2
+[代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/2.py)
+![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_02/2.png)
 ## 结论
 通过练习、出错、找错、再练习，可以很好的熟悉Python的语法
