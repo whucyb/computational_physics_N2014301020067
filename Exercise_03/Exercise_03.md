@@ -6,6 +6,10 @@
 
 ##摘要
 ##背景介绍
+##学习面向对象编程
+* [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/OOP.py)
+
+![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/OOP.png)
 ##使用matplotlib作图
 * [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/figure.py)
 
