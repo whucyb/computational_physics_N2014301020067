@@ -18,4 +18,8 @@
 * [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L1.py)
 
 ![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L1.gif)
+##水平移动、转动图案
+* [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L2.py)
+
+![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L2.gif)
 ##结论
