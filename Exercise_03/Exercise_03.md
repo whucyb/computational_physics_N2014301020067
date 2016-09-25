@@ -27,6 +27,8 @@
 * 80×80的点阵太大了，屏幕打不下，就用了40×30的
 * 旋转暂时只能做到每次转动90°
 * [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L2.py)
+* 使用函数重写
+* [点击查看代码](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L2 s.py)
 
 ![图片丢失](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_03/L2.gif)
 ##结论
