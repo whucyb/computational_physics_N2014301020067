@@ -60,6 +60,7 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
 
 * Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the solution
+
 1. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)=0.01s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_8.png)<br>
 
