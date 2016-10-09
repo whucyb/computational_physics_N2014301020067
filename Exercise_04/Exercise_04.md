@@ -90,6 +90,6 @@ We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, i
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
 Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
 
-### The program
+### Two time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BB%7D)
 
 ## Conclusion
