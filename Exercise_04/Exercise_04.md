@@ -22,6 +22,9 @@ where for simplicity we have assumed that the two types of decay are characteriz
  4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
 2. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 2s
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_5.png)<br>
 3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
 
 ## Conclusion
