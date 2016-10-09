@@ -3,10 +3,10 @@
 Learn a numerical approach, and try to make use of it to solve physics problems involving ordinary differential equations.
 ## Background
 ### Radioactive decay
-We know that ![](http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) is unstable and would decay. According to a large number of ![](http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) nuclei, we can have the rate equation<br>
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D),<br>
-where ![](http://latex.codecogs.com/gif.latex?%5Ctau) is the time constant for the decay. Solve the differential equation above, and we can obtain the analytical solution<br>
-![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D),<br>
+We know that ![](http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) is unstable and would decay. According to a large number of ![](http://latex.codecogs.com/gif.latex?%5E%7B235%7DU) nuclei, we can have the rate equation
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D),where ![](http://latex.codecogs.com/gif.latex?%5Ctau) is the time constant for the decay.<br>
+Solve the differential equation above, and we can obtain the analytical solution
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D),
 where ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%280%29) is the number of nuclei present at t=0.
 ### Euler method
 From the Taylor expansion for ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D),<br>
