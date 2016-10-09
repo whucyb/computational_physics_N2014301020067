@@ -42,7 +42,7 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
 The figure shows that ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) finally become constant and the time derivatives ![](http://latex.codecogs.com/gif.latex?%7B%5Cmathrm%7Bd%7D%20N_%7BA%7D%7D/%7B%5Cmathrm%7Bd%7D%20t%7D) and ![](http://latex.codecogs.com/gif.latex?%7B%5Cmathrm%7Bd%7D%20N_%7BB%7D%7D/%7B%5Cmathrm%7Bd%7D%20t%7D) finally become 0, which is consistent with the idea that the system reaches a steady state.
 
-* Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the solution
+* Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the numerical solution
 
 1. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)=0.01s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_8.png)<br>
@@ -58,10 +58,9 @@ The figure shows that ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![]
 
 5. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)=0.5s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_12.png)<br>
+We can see that if the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) is small enough, the numerical solution would be very close to the analytical solution, and the smaller the ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) is, the numerical solution is more accurate.
 
-
-
-* Keep the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s，and change the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D)/![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D)
+* Keep the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s，and change the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D/N_%7BA0%7D)
 
 1. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 0
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
@@ -74,8 +73,9 @@ The figure shows that ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![]
 
 4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
+We can see whatever the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D/N_%7BA0%7D)
 
-* Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau)
+* Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau) is,
 
 1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
@@ -86,9 +86,9 @@ The figure shows that ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![]
 3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
 
-We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, it is not suitable to keep the total time still be 10s. Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
+We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, it is not suitable to keep the total time still be 10s. <br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
-
+Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
 
 
 ## Conclusion
