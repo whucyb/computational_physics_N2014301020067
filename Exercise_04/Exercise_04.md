@@ -11,15 +11,15 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%280%29) is the number of
 ### Euler method
 From the Taylor expansion for ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D),<br>
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%3DN_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%28%5CDelta%20t%29%5E2&plus;...),<br>
-if we take ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) to be small and then simply ignore the therms that involved second and higher powers of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t), we can have the approximation value of ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D) that<br>
+if we take ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) to be small and then simply ignore the therms that involved second and higher powers of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t), we can have the approximation value of ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D) that
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%5Capprox%20N_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t).<br>
 The same result can be obtained from the definition of a derivative that<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Cequiv%20%5Clim_%7B%5CDelta%20t%5Crightarrow%200%7D%5Cfrac%7BN_%7BU%7D%28t&plus;%5CDelta%20t%29-N_%7BU%7D%28t%29%7D%7B%5CDelta%20t%7D%5Capprox%5Cfrac%7BN_%7BU%7D%28t&plus;%5CDelta%20t%29-N_%7BU%7D%28t%29%7D%7B%5CDelta%20t%7D),<br>
 where in the last approximation we have assumed that ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) is small but nonzero.<br>
 So we can rearrange this to obtain<br>
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28t&plus;%5CDelta%20t%29%5Capprox%20N_%7BU%7D%28t%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t).<br>
-So if we insert <br>
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D) <br>
+So if we insert 
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D) 
 into it, we can obtain<br>
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28t&plus;%5CDelta%20t%29%5Capprox%20N_%7BU%7D%28t%29-%5Cfrac%7BN_%7BU%7D%28t%29%7D%7B%5Ctau%7D%5CDelta%20t).<br>
 ## Problem 1.5
