@@ -9,8 +9,8 @@ Solve the differential equation above, and we can obtain the analytical solution
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%3DN_%7BU%7D%280%29e%5E%7B-t/%7B%5Ctau%7D%7D),
 where ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%280%29) is the number of nuclei present at t=0.
 ### Euler method
-From the Taylor expansion for ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D),
-![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%3DN_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%28%5CDelta%20t%29%5E2&plus;...),
+From the Taylor expansion for ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D),<br>
+![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%3DN_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%28%5CDelta%20t%29%5E2&plus;...),<br>
 if we take ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) to be small and then simply ignore the therms that involved second and higher powers of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t), we can have the approximation value of ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D) that
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28%5CDelta%20t%29%5Capprox%20N_%7BU%7D%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t).<br>
 The same result can be obtained from the definition of a derivative that<br>
