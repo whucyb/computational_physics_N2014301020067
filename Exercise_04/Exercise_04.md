@@ -90,19 +90,22 @@ We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, i
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
 Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
 
-### Two time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BB%7D)
+### Two time constants ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BB%7D)
 If the rate equations are<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BA%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_B%7D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_A%7D),<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BB%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_A%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_B%7D),<br>
 what the system would be?<br>
-Let's solve the problem by using the Euler method.
+Let's solve the problem by using the Euler method.<br>
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/Exercise_04s.py)<br>
-
-
-
-
-
-
-
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/1.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/2.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/3.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/4.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/5.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/6.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/7.png)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/8.png)<br>
+We can see that the system can still finally reach a steady state, but ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) is not the same as ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) if two time constants ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BB%7D) are different.
 
 ## Conclusion
+We can use Euler method to solve physics problems involving ordinary differential equations.
