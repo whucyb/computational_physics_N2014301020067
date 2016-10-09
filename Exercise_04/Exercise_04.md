@@ -32,14 +32,15 @@ where for simplicity we have assumed that the two types of decay are characteriz
 According to the rate equations<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BA%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20%7D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20%7D),<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BB%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20%7D),<br>
-we canobtain the analytical solution<br>
+we can obtain the analytical solution<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20N_%7BA%7D%3D%5Cfrac%7BN_%7BA0%7D&plus;N_%7BB0%7D%7D%7B2%7D&plus;%5Cfrac%7BN_%7BA0%7D-N_%7BB0%7D%7D%7B2%7De%5E%7B-%5Cfrac%7B2%7D%7B%5Ctau%20%7Dt%7D%20%5C%5C%20N_%7BB%7D%3D%5Cfrac%7BN_%7BA0%7D&plus;N_%7BB0%7D%7D%7B2%7D-%5Cfrac%7BN_%7BA0%7D-N_%7BB0%7D%7D%7B2%7De%5E%7B-%5Cfrac%7B2%7D%7B%5Ctau%20%7Dt%7D%20%5Cend%7Bmatrix%7D%5Cright.)，<br>
 where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nuclei A and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) is the number of nuclei B present at t = 0.
 
 ### The program
+* Use the Euler method to obtain the numerical solution<br>
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/Exercise_04.py)
 
-1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
+1. Keep the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s，and change the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D)/![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D)
  1. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 0
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
  2. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 50 
@@ -48,10 +49,17 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_3.png)<br>
  4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
-2. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 2s
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_5.png)<br>
-3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
+2. Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau)
+ 1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
+ 2. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 2s
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_5.png)<br>
+ 3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
+ We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, it is not suitable to keep the total time still be 10s. Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
+
+* Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the solution
+1. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)=
 
 ## Conclusion
