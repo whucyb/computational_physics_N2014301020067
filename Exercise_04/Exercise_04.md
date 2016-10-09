@@ -73,9 +73,9 @@ We can see that if the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta
 
 4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
-We can see whatever the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D/N_%7BA0%7D)
+We can see whatever the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D/N_%7BA0%7D) is, the system can finally reach a steady state.
 
-* Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau) is,
+* Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau)
 
 1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
@@ -90,5 +90,6 @@ We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, i
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
 Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
 
+### The program
 
 ## Conclusion
