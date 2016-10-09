@@ -16,11 +16,11 @@ if we take ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) to be small and
 The same result can be obtained from the definition of a derivative that<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Cequiv%20%5Clim_%7B%5CDelta%20t%5Crightarrow%200%7D%5Cfrac%7BN_%7BU%7D%28t&plus;%5CDelta%20t%29-N_%7BU%7D%28t%29%7D%7B%5CDelta%20t%7D%5Capprox%5Cfrac%7BN_%7BU%7D%28t&plus;%5CDelta%20t%29-N_%7BU%7D%28t%29%7D%7B%5CDelta%20t%7D),<br>
 where in the last approximation we have assumed that ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) is small but nonzero.<br>
-So we can rearrange this to obtain<br>
+So we can rearrange this to obtain
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28t&plus;%5CDelta%20t%29%5Capprox%20N_%7BU%7D%28t%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5CDelta%20t).<br>
 So if we insert 
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BU%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BN_%7BU%7D%7D%7B%5Ctau%7D) 
-into it, we can obtain<br>
+into it, we can obtain
 ![](http://latex.codecogs.com/gif.latex?N_%7BU%7D%28t&plus;%5CDelta%20t%29%5Capprox%20N_%7BU%7D%28t%29-%5Cfrac%7BN_%7BU%7D%28t%29%7D%7B%5Ctau%7D%5CDelta%20t).<br>
 ## Problem 1.5
 Consider again a decay problem with two types of nuclei A and B, but now suppose that nuclei of type A decay into type B, while nuclei of type B decay into type A. Strictly speaking, this is not a "decay" process, since it is possible for the type B nuclei to turn back into type A. A better analogy would be a resonance in which a system can tunnel or move back and forth between two states A and B which have equal energies. The corresponding rate equations are<br>
