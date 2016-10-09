@@ -38,26 +38,8 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
 
 ### The program
 * Use the Euler method to obtain the numerical solution<br>
-[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/Exercise_04.py)
-
-1. Keep the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s，and change the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D)/![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D)
- 1. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 0
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
- 2. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 50 
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_2.png)<br>
- 3. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 100 
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_3.png)<br>
- 4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
-2. Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau)
- 1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
- 2. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 2s
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_5.png)<br>
- 3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
- We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, it is not suitable to keep the total time still be 10s. Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
+[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/Exercise_04.py)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
 
 * Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the solution
 
@@ -75,4 +57,37 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
 
 5. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)=0.5s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_12.png)<br>
+
+
+
+* Keep the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s，and change the value of ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D)/![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D)
+
+1. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 0
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
+
+2. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 50 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_2.png)<br>
+
+3. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 100 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_3.png)<br>
+
+4. ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) = 100 , ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) = 200 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
+
+* Keep ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB0%7D) the same, and change the value of the ![](http://latex.codecogs.com/gif.latex?%5Ctau)
+
+1. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 1s
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
+
+2. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 2s
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_5.png)<br>
+
+3. ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_6.png)<br>
+
+We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, it is not suitable to keep the total time still be 10s. Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_7.png)<br>
+
+
+
 ## Conclusion
