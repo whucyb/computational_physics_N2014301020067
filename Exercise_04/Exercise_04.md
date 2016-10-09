@@ -40,6 +40,7 @@ where ![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D) is the number of nucle
 * Use the Euler method to obtain the numerical solution<br>
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/Exercise_04.py)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
+[Click here to see the data.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/data.txt)<br>
 The figure shows that ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) finally become constant and the time derivatives ![](http://latex.codecogs.com/gif.latex?%7B%5Cmathrm%7Bd%7D%20N_%7BA%7D%7D/%7B%5Cmathrm%7Bd%7D%20t%7D) and ![](http://latex.codecogs.com/gif.latex?%7B%5Cmathrm%7Bd%7D%20N_%7BB%7D%7D/%7B%5Cmathrm%7Bd%7D%20t%7D) finally become 0, which is consistent with the idea that the system reaches a steady state.
 
 * Contrast numerical solution with analytical solution and analyze the influence of the value of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20t) on the accuracy of the numerical solution
@@ -109,3 +110,9 @@ We can see that the system can still finally reach a steady state, but ![](http:
 
 ## Conclusion
 We can use Euler method to solve physics problems involving ordinary differential equations.
+
+## Reference
+* [Chapter 1 A First Numerical Problem_Cai Hao_
+Wuhan University](https://www.evernote.com/shard/s140/sh/d351f9a3-8076-4274-944b-7043e0ce8cf3/4f89e8630604ea23262f00b3ed11f8ad)
+
+* 《Computational Physics》 (Second Edition)
