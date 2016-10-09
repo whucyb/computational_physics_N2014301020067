@@ -91,5 +91,18 @@ We can see that when the ![](http://latex.codecogs.com/gif.latex?%5Ctau) = 5s, i
 Because if the the time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau) becomes larger, the time, after which the ![](http://latex.codecogs.com/gif.latex?N_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?N_%7BB%7D) are constant, will be larger, too.
 
 ### Two time constant ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BA%7D) and ![](http://latex.codecogs.com/gif.latex?%5Ctau_%7BB%7D)
+If the rate equations are<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BA%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_B%7D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_A%7D),<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20N_%7BB%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_A%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_B%7D),<br>
+what the system would be?<br>
+Let's solve the problem by using the Euler method.
+
+
+
+
+
+
+
+
 
 ## Conclusion
