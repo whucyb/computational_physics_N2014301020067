@@ -15,5 +15,5 @@ where for simplicity we have assumed that the two types of decay are characteriz
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_1.png)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_2.png)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_3.png)<br>
-
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_04/figure_4.png)<br>
 ## Conclusion
