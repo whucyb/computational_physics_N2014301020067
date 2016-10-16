@@ -7,7 +7,7 @@ Add the effect of the Earth's vevolution about its own axis, that is, consider t
 
 ## Background
 
-## Programe
+## Program
 
 
 
