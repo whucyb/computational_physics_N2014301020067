@@ -2,7 +2,7 @@
 import math
 import matplotlib.pyplot as plt
 class trajectory(object):
-    def __init__(self,initial_speed,):
+    def __init__(self,initial_speed):
         self.x = [[]]
         self.y = [[]]
         self.v_0 = initial_speed
