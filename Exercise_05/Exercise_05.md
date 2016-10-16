@@ -1,6 +1,7 @@
 # Exercise_05
 
 ## abstract
+Use the Euler method to calculate the trajectory of cannon shell.
 
 ## Background
 
@@ -13,20 +14,7 @@ In our model of the cannon shell trajectory we have assumed that the acceleratio
 Calculate the trajectory of our cannon shell including both air drag and the reduced air density at high altitudes so that you can reproduce the result in Figure 2.5. Perform your calculation for different firing angles and determine the value of the angle that give the maximum range.
 
 ## Program
-[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.py)
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.py)
 
 
 
