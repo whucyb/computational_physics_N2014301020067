@@ -14,29 +14,35 @@ Calculate the trajectory of our cannon shell including both air drag and the red
 ## Program
 * [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.py)
 
-* Firstly, let's calculate the trajectory of cannon shell without air drag and assume that the acceleration due to gravity, g, is a constant.
+* Firstly, let's calculate the trajectory of cannon shell without air drag and assume that the acceleration due to gravity, g, is a constant.<br>
 ![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/1.png)
 
-* Then, let's consider the air drag.
-![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s
+* Then, let's consider the air drag.<br>
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/2.png)
 
-* Now, let's ignore the air drag temporarily and consider that g, which depands on altitude, is not a constant.
+* Now, let's ignore the air drag temporarily and consider that g, which depands on altitude, is not a constant.<br>
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/3.png)
 We find that if the initial speed of the cannon shell is not too large, the effect of the change of the g is small.<br>
-Then, let's increase the initial speed.<br>
+So let's increase the initial speed and assume that we can make it be 6km/s.<br>
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 6km/s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/4.png)
+Now, we can see the effect of the change of the g depanding on altitude obviously.
 
 *  Assume that g is a constant again, and consider the effect of air density.
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/6.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/7.png)
 Then, let's increase the initial speed.<br>
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 6km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/8.png)
 
 * Finally, let's consider all the effects considered above. 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/9.png)
 Then, let's increase the initial speed.<br>
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 6km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/10.png)
 
 ## Reference
