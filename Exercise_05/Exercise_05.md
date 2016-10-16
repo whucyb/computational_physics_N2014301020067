@@ -39,6 +39,9 @@ Now, we can see the effect of the change of the g depanding on altitude obviousl
 ![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km , ![](http://latex.codecogs.com/gif.latex?y_0%3Dk_BT/mg) = 10km , a = 6.5K/km , ![](http://latex.codecogs.com/gif.latex?%5Calpha) = 2.5 , ![](http://latex.codecogs.com/gif.latex?T_0) = 300K
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-2.png)
 
+## Conclusion
+It is complex to calculate the trajectory of cannon shell.
+
 ## Reference
 * [Chapter 2 Realistic Projectile Motion_Cai Hao_
 Wuhan University](https://www.evernote.com/shard/s140/sh/26f85380-ee6c-4b4b-b33f-6871804d91ff/fb8cc702cb0e8ed7fafb50b2de4596ca)
