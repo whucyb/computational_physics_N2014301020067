@@ -3,8 +3,6 @@
 ## abstract
 Use the Euler method to calculate the trajectory of cannon shell.
 
-## Background
-
 ## problem
 * problem 2.6<br>
 Use the Euler method to calculate cannon shell trajectories ignoring both air drag angd the effect of air density (actually, ignoring the former automatically rules out the latter). Compare your results with those in Figure 2.4, and with the exact solution.
@@ -16,8 +14,28 @@ Calculate the trajectory of our cannon shell including both air drag and the red
 ## Program
 * [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.py)
 
+* Firstly, let's calculate the trajectory of cannon shell without air drag and assume that the acceleration due to gravity, g, is a constant.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/1.png)
 
+* Then, let's consider the air drag.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/2.png)
 
+* Now, let's ignore the air drag temporarily and consider that g, which depands on altitude, is not a constant.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/3.png)
+We find that if the initial speed of the cannon shell is not too large, the effect of the change of the g is small.<br>
+Then, let's increase the initial speed.<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/4.png)
+
+*  Assume that g is a constant again, and consider the effect of air density.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/6.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/7.png)
+Then, let's increase the initial speed.<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/8.png)
+
+* Finally, let's consider all the effects considered above. 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/9.png)
+Then, let's increase the initial speed.<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/10.png)
 
 ## Reference
 * [Chapter 2 Realistic Projectile Motion_Cai Hao_
