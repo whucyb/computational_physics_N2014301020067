@@ -15,9 +15,11 @@ Calculate the trajectory of our cannon shell including both air drag and the red
 * [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.py)
 
 * Firstly, let's calculate the trajectory of cannon shell without air drag and assume that the acceleration due to gravity, g, is a constant.
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/1.png)
 
 * Then, let's consider the air drag.
+![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/2.png)
 
 * Now, let's ignore the air drag temporarily and consider that g, which depands on altitude, is not a constant.
