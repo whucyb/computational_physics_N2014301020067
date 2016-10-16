@@ -149,7 +149,7 @@ class with_density_correction(with_air_drag):
         self.v_y.append([])
         g = 0.0098
         B_2_divided_by_m = 0.04
-        a = 0.0065
+        a = 6.5
         alpha = 2.5
         T_0 = 300
         for i in self.initial_angle:
@@ -171,30 +171,27 @@ class with_density_correction(with_air_drag):
         for i in range(len(self.initial_angle)):
             plt.plot(self.x[1][i], self.y[1][i])
             plt.annotate(r'$%d^\circ$'%self.initial_angle[i],xy=(30,17 + 5 * i))
-        plt.title('Trajectory of cannon shell')
+        plt.title('Trajectory of cannon shell\nWith air drag\nWithout density correction')
         plt.xlabel('x (km)')
         plt.ylabel('y (km)')
-        plt.xlim(0,)
-        plt.ylim(0,)
-        plt.text(20,55,'With air drag\nWithout density correction')
+        plt.xlim(0,30)
+        plt.ylim(0,14)
         plt.subplot(132)
         for j in range(len(self.initial_angle)):
             plt.plot(self.x[2][j], self.y[2][j])
-        plt.title('Trajectory of cannon shell')
+        plt.title('Trajectory of cannon shell\nWith air drag\nWith density correction  isothermal model')
         plt.xlabel('x (km)')
         plt.ylabel('y (km)')
-        plt.xlim(0,)
-        plt.ylim(0,)
-        plt.text(1200,800,'With air drag\nWith density correction\nIsothermal model')
+        plt.xlim(0,30)
+        plt.ylim(0,14)
         plt.subplot(133)
         for k in range(len(self.initial_angle)):
             plt.plot(self.x[3][k], self.y[3][k])
-        plt.title('Trajectory of cannon shell')
+        plt.title('Trajectory of cannon shell\nWith air drag\nWith density correction  adiabatic model')
         plt.xlabel('x (km)')
         plt.ylabel('y (km)')
-        plt.xlim(0,)
-        plt.ylim(0,)
-        plt.text(5,70,'With air drag\nWith density correction\nAdiabatic model')
+        plt.xlim(0,30)
+        plt.ylim(0,14)
         plt.show()
 class with_density_and_g_correction(with_density_correction):
     def calculate_isothermal_model(self):
@@ -228,7 +225,7 @@ class with_density_and_g_correction(with_density_correction):
         g_0 = 0.0098
         R = 6371
         B_2_divided_by_m = 0.04
-        a = 0.0065
+        a = 6.5
         alpha = 2.5
         T_0 = 300
         for i in self.initial_angle:
@@ -271,3 +268,8 @@ class with_density_and_g_correction(with_density_correction):
         plt.xlim(0,60)
         plt.ylim(0,20)
         plt.show()
+a=with_density_and_g_correction(0.7)
+a.calculate()
+a.calculate_isothermal_model()
+a.calculate_adiabatic_model()
+a.show_results()
