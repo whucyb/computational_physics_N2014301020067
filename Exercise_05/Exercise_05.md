@@ -1,5 +1,29 @@
 # Exercise_05
 
+## Problem 2.12
+Add the effect of the Earth's vevolution about its own axis, that is, consider the Coriolis force.
+
+## abstract
+
+## Background
+
+## Programe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Reference
