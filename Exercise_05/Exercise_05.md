@@ -61,10 +61,14 @@ Now, we can see the effect of the change of the g depanding on altitude obviousl
 *  Assume that g is a constant again, and consider the effect of air density.<br>
 ![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km , ![](http://latex.codecogs.com/gif.latex?y_0%3Dk_BT/mg) = 10km , a = 6.5K/km , ![](http://latex.codecogs.com/gif.latex?%5Calpha) = 2.5 , ![](http://latex.codecogs.com/gif.latex?T_0) = 300K
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-1.png)
+Let's enlarge the figure to see the landing point clearly.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-3.png)
 
 * Finally, let's consider all the effects considered above.<br>
 ![](http://latex.codecogs.com/gif.latex?v_%7Bo%7D) = 0.7km/s , ![](http://latex.codecogs.com/gif.latex?B_%7B2%7D/m) = 0.04/km , ![](http://latex.codecogs.com/gif.latex?y_0%3Dk_BT/mg) = 10km , a = 6.5K/km , ![](http://latex.codecogs.com/gif.latex?%5Calpha) = 2.5 , ![](http://latex.codecogs.com/gif.latex?T_0) = 300K
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-2.png)
+Let's enlarge the figure to see the landing point clearly.
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-4.png)
 
 ## Conclusion
 It is complex to calculate the trajectory of cannon shell.
