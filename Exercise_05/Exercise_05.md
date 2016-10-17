@@ -71,7 +71,7 @@ Let's enlarge the figure to see the landing point clearly.
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/figure_1-4.png)
 
 ## Conclusion
-It is complex to calculate the trajectory of cannon shell.
+It is complex to calculate the trajectory of cannon shell because many effects exist.
 
 ## Reference
 * [Chapter 2 Realistic Projectile Motion_Cai Hao_
