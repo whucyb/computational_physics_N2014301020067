@@ -26,7 +26,7 @@ we have<br>
 * If we consider that the acceleration due to gravity, g, depands on altitude, we have<br>
 ![](http://latex.codecogs.com/gif.latex?g%3Dg_0%28%5Cfrac%7BR%7D%7BR&plus;y%7D%29%5E2)
 
-* If we consider that there exists a headwind, then the drag force become
+* If we consider that there exists a headwind, then the drag force become<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20F_%7Bdrag%2Cx%7D%3D-B_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7C%28v_x-v_%7Bwind%7D%29%20%5C%5C%20F_%7Bdrag%2Cy%7D%3D-B_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7Cv_y)
 
 * The landing point of the shell
