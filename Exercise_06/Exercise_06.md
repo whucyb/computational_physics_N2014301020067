@@ -1,3 +1,8 @@
+# Exercise 06
+
+# Absract
+Develop the "super assisted precision strike system".
+
 ## Background
 * From Newton's second law, we have<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%5E%7B2%7D%7D%20x%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D0%20%5C%5C%20%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%5E%7B2%7D%7D%20y%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-g),<br>
