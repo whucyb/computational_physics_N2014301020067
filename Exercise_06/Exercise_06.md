@@ -36,5 +36,5 @@ Through the calculation, we will get the last point above ground(n) and the poin
 ## Program
 Consider the air drag, altitude, air density(adiabatic model) and the headwind, using the Euler method, we have<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20x_%7Bi&plus;1%7D%3Dx_%7Bi%7D&plus;v_%7Bx%2Ci%7D%5CDelta%20t%20%5C%5C%20v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7D%5Cfrac%7BB_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7C%28v_%7Bx%2Ci%7D-v_%7Bwind%7D%29%7D%7Bm%7D%5CDelta%20t%20%5C%5C%20y_%7Bi&plus;1%7D%3Dy_%7Bi%7D&plus;v_%7By%2Ci%7D%5CDelta%20t%20%5C%5C%20v_%7By%2Ci&plus;1%7D%3Dv_%7By%2Ci%7D-g_0%28%5Cfrac%7BR%7D%7BR&plus;y%7D%29%5E2%5CDelta%20t-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7D%5Cfrac%7BB_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7Cv_%7By%2Ci%7D%7D%7Bm%7D%5CDelta%20t)<br>
-[Click here to see the code.]()
+[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/Exercise_06.py)
 
