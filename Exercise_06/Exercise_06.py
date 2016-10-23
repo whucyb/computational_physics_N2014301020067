@@ -2,6 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import scipy.stats as ss
 class cannon_shell(object):
     def __init__(self,target):
         self.x = [[]]
@@ -9,7 +10,7 @@ class cannon_shell(object):
         self.v_0 = [2]
         self.v_x = [[]]
         self.v_y = [[]]
-        self.delta_t = 0.01
+        self.delta_t = 0.05
         self.angle = np.arange(0,90.1,0.1)
         self.shoot_angle = []
         self.target = target
@@ -50,7 +51,7 @@ class cannon_shell(object):
         self.y.append([])
         self.v_x.append([])
         self.v_y.append([])
-        for i in range(100):
+        for i in range(1000):
             self.v_0.append(self.v_0[0] * (1 + random.uniform(-0.05,0.05)))
             self.shoot_angle.append(self.shoot_angle[0] + random.uniform(-2,2))
             self.v_wind.append(self.v_wind[0] * (1 + random.uniform(-0.1,0.1)))
@@ -69,7 +70,7 @@ class cannon_shell(object):
                 self.x[1][-1][-1] = (self.x[1][-1][-2] + r * self.x[1][-1][-1]) / (r + 1)
             self.deviation.append(self.x[1][-1][-1] - self.target)           
             self.deviation_2.append(self.deviation[-1] ** 2)
-        self.RMS.append(sum(self.deviation_2) / 100.0)
+        self.RMS.append(sum(self.deviation_2) / 1000.0)
     def show_results_1(self):
         for i in self.angle:
             plt.plot(self.x[0][int(i * 10)], self.y[0][int(i * 10)])
@@ -79,7 +80,7 @@ class cannon_shell(object):
         plt.ylim(0,)
         plt.show()
     def show_results_2(self):        
-        for i in range(100):
+        for i in range(1000):
             plt.plot(self.x[1][i], self.y[1][i])
         plt.title(r'Trajectory of cannon shell   $\theta$ = %.1f'%self.shoot_angle[0])
         plt.xlabel('x (km)')
@@ -87,11 +88,11 @@ class cannon_shell(object):
         plt.ylim(0,)
         plt.show()
     def show_results_3(self):   
-        plt.plot(range(100), sorted(self.deviation))
+        plt.plot(sorted(self.deviation), ss.norm.pdf(sorted(self.deviation)))
         plt.title(r'$\overline{(\Delta x)^2}$ = %.2f $km^2$'%self.RMS[-1])
-        plt.xlabel('n')
-        plt.ylabel(r'$\Delta x(km)$')
-        plt.xlim(0,)
+        plt.xlabel(r'$\Delta x(km)$')
+        plt.ylabel('P')
+        plt.ylim(0,)
         plt.show()
 a=cannon_shell(100)
 a.calculate()
