@@ -32,3 +32,9 @@ we have<br>
 * The landing point of the shell
 Through the calculation, we will get the last point above ground(n) and the point that would have been below ground(n+1). If we let ![](http://latex.codecogs.com/gif.latex?r%3D-y_n/y_%7Bn&plus;1%7D) then a linear interpolation gives<br>
 ![](http://latex.codecogs.com/gif.latex?x_l%3D%5Cfrac%7Bx_n&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D), and ![](http://latex.codecogs.com/gif.latex?y_l%3D0).
+
+## Program
+Consider the air drag, altitude, air density(adiabatic model) and the headwind, using the Euler method, we have<br>
+![](http://latex.codecogs.com/gif.latex?%5C%5C%20x_%7Bi&plus;1%7D%3Dx_%7Bi%7D&plus;v_%7Bx%2Ci%7D%5CDelta%20t%20%5C%5C%20v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7D%5Cfrac%7BB_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7C%28v_%7Bx%2Ci%7D-v_%7Bwind%7D%29%7D%7Bm%7D%5CDelta%20t%20%5C%5C%20y_%7Bi&plus;1%7D%3Dy_%7Bi%7D&plus;v_%7By%2Ci%7D%5CDelta%20t%20%5C%5C%20v_%7By%2Ci&plus;1%7D%3Dv_%7By%2Ci%7D-g_0%28%5Cfrac%7BR%7D%7BR&plus;y%7D%29%5E2%5CDelta%20t-%281-%5Cfrac%7Bay%7D%7BT_0%7D%29%5E%7B%5Calpha%20%7D%5Cfrac%7BB_2%5Cleft%20%7C%20%5Coverrightarrow%7Bv%7D-%5Coverrightarrow%7Bv%7D_%7Bwind%7D%20%5Cright%20%7Cv_%7By%2Ci%7D%7D%7Bm%7D%5CDelta%20t)<br>
+[Click here to see the code.]()
+
