@@ -41,13 +41,13 @@ Through the calculation, we will get the last point above ground(n) and the poin
 
 * Calculate the angle we need.<br>
 Calculate when ![](http://latex.codecogs.com/gif.latex?%5Ctheta) comes from ![](http://latex.codecogs.com/gif.latex?0%5E%7B%5Ccirc%7D) to ![](http://latex.codecogs.com/gif.latex?90%5E%7B%5Ccirc%7D) in order to find the landing point which is the closest to the target.<br>
-![](http://latex.codecogs.com/gif.latex?%5C%5C%20v_0%3D2km/s%20%2C%20g_0%3D9.8m/s%5E2%20%2C%20R%3D6371km%20%2C%20%5Cfrac%7BB_2%7D%7Bm%7D%3D0.04km%20%5C%5C%20a%3D6.5K/km%20%2C%20%5Calpha%20%3D2.5%20%2C%20T_0%3D300K%20%2C%20v_%7Bwind%7D%3D10km/h)<br>
+![](http://latex.codecogs.com/gif.latex?%5C%5C%20v_0%3D2km/s%20%2C%20%5Ctheta%20_0%3D%280%5Csim90%29%5E%7B%5Ccirc%7D%20%2C%20%5CDelta%20t%3D0.05s%20%2C%20g_0%3D9.8m/s%5E2%20%2C%20R%3D6371km%20%5C%5C%20%5Cfrac%7BB_2%7D%7Bm%7D%3D0.04km%20%2C%20a%3D6.5K/km%20%2C%20%5Calpha%20%3D2.5%20%2C%20T_0%3D300K%20%2C%20v_%7Bwind%7D%3D10%20km/h)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/figure%201.png)<br>
 (According to the adiabatic model, if y>46.15km, there will be no air. So we can see there is a piece missing in the figure.)<br>
 Then, we find that if ![](http://latex.codecogs.com/gif.latex?%5Ctheta%20_0%20%3D%2044.1%5E%7B%5Ccirc%7D), the landing point (![](http://latex.codecogs.com/gif.latex?x_l%20%5Capprox%2099.979km)) is the closest to the target.
 
 * Use the angle we figure out to shoot the target with error.<br>
-![](http://latex.codecogs.com/gif.latex?%5C%5C%20v_0%3D%282%5Cpm%205%5C%25%29km/s%20%2C%20%5Ctheta%20_0%3D%2844.1%5Cpm%202%29%5E%7B%5Ccirc%7D%20%2C%20g_0%3D9.8m/s%5E2%20%2C%20R%3D6371km%5Cfrac%7BB_2%7D%7Bm%7D%3D0.04km%20%5C%5C%20%5Cfrac%7BB_2%7D%7Bm%7D%3D0.04km%20%2C%20a%3D6.5K/km%20%2C%20%5Calpha%20%3D2.5%20%2C%20T_0%3D300K%20%2C%20v_%7Bwind%7D%3D%2810%5Cpm%2010%5C%25%29%20km/h)<br>
+![](http://latex.codecogs.com/gif.latex?%5C%5C%20v_0%3D%282%5Cpm%205%5C%25%29km/s%20%2C%20%5Ctheta%20_0%3D%2844.1%5Cpm%202%29%5E%7B%5Ccirc%7D%20%2C%20%5CDelta%20t%3D0.05s%20%2C%20g_0%3D9.8m/s%5E2%20%2C%20R%3D6371km%20%5C%5C%20%5Cfrac%7BB_2%7D%7Bm%7D%3D0.04km%20%2C%20a%3D6.5K/km%20%2C%20%5Calpha%20%3D2.5%20%2C%20T_0%3D300K%20%2C%20v_%7Bwind%7D%3D%2810%5Cpm%2010%5C%25%29%20km/h)<br>
  1. Shoot 1 time<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/figure%204.png)<br>
  2. Shoot 5 times<br>
