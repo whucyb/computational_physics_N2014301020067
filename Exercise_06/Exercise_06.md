@@ -55,7 +55,7 @@ Then, we find that if ![](http://latex.codecogs.com/gif.latex?%5Ctheta%20_0%20%3
  3. Shoot 1000 times<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/figure%202.png)<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/figure%203.png)<br>
- We figure out that ![](http://latex.codecogs.com/gif.latex?%5Coverline%7B%28%5CDelta%20x%29%5E2%7D%3D30.15km%5E2) in this simulation.
+ We figure out that ![](http://latex.codecogs.com/gif.latex?%5Coverline%7B%28%5CDelta%20x%29%5E2%7D%3D30.15km%5E2) in this simulated shoot.
 
 ## Conclusion
 It is hard to shoot a target accurately.
