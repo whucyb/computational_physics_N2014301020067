@@ -1,1 +1,1 @@
-
+In constructing the Poincaré section in Figure 3.9 we plotted points only at times that were in phase with the drive force; that is, at times , where n is an interger. At these values of t the driving force passed throught zero [see (3.8)]. However, we could just as easily have chosen to make the plot at times corresponding to a maximum of the drive force, or at times out-of-phase with this force, etc. Construct the Poincaré sections for these cases and compare them with Figure 3.9.
