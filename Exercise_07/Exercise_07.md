@@ -7,6 +7,24 @@
 ## Program
 * [Click here to see the code.]()
 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_1.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_2.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_3.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_4.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-1.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-2.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-3.png)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_.png)
+
+
+
 * Problem 3.12.<br>
 In constructing the Poincaré section in Figure 3.9 we plotted points only at times that were in phase with the drive force; that is, at times ![](http://latex.codecogs.com/gif.latex?t%5Capprox%202%5Cpi%20n/%5COmega%20_D), where n is an interger. At these values of t the driving force passed throught zero [see (3.18)]. However, we could just as easily have chosen to make the plot at times corresponding to a maximum of the drive force, or at times ![](http://latex.codecogs.com/gif.latex?%5Cpi/4) out-of-phase with this force, etc. Construct the Poincaré sections for these cases and compare them with Figure 3.9.
 
