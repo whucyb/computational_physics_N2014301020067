@@ -5,7 +5,7 @@
 ## Background
 
 ## Program
-* [Click here to see the code.]()
+* [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/%20Exercise_07.py)
 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_1.png)
 
@@ -28,23 +28,23 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-1.png)
 
 * Problem 3.12.<br>
-In constructing the Poincaré section in Figure 3.9 we plotted points only at times that were in phase with the drive force; that is, at times ![](http://latex.codecogs.com/gif.latex?t%5Capprox%202%5Cpi%20n/%5COmega%20_D), where n is an interger. At these values of t the driving force passed throught zero [see (3.18)]. However, we could just as easily have chosen to make the plot at times corresponding to a maximum of the drive force, or at times ![](http://latex.codecogs.com/gif.latex?%5Cpi/4) out-of-phase with this force, etc. Construct the Poincaré sections for these cases and compare them with Figure 3.9.
- 1.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-1.png)
- 2.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-2.png)
- 3.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-3.png)
- 4.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-4.png)
- 5.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-5.png)
- 6.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-6.png)
- 7.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-7.png)
- 8.
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-8.png)
+In constructing the Poincaré section in Figure 3.9 we plotted points only at times that were in phase with the drive force; that is, at times ![](http://latex.codecogs.com/gif.latex?t%5Capprox%202%5Cpi%20n/%5COmega%20_D), where n is an interger. At these values of t the driving force passed throught zero [see (3.18)]. However, we could just as easily have chosen to make the plot at times corresponding to a maximum of the drive force, or at times ![](http://latex.codecogs.com/gif.latex?%5Cpi/4) out-of-phase with this force, etc. Construct the Poincaré sections for these cases and compare them with Figure 3.9.<br>
+ 1. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-1.png)<br>
+ 2. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;%5Cpi/4)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-2.png)<br>
+ 3. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;%5Cpi/2)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-3.png)<br>
+ 4. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;3%5Cpi/4)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-4.png)<br>
+ 5. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;%5Cpi)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-5.png)<br>
+ 6. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;5%5Cpi/4)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-6.png)<br>
+ 7. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;3%5Cpi/2)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-7.png)<br>
+ 8. ![](http://latex.codecogs.com/gif.latex?%5COmega%20_%7BD%7Dt%3D2n%5Cpi&plus;7%5Cpi/4)<br>
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-8.png)<br>
 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_7-9.png)
 
