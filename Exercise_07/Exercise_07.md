@@ -1,25 +1,27 @@
 # Exercise 07
 
 ## Abstract
+Use python to study the oscillatory motion and chaos.
 
 ## Background
 
 ## Program
-* [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/%20Exercise_07.py)
 
-* Simple Pendulum - Euler method<br>
+### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/%20Exercise_07.py)
+
+### Simple Pendulum - Euler method
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_1.png)
 
-* Simple Pendulum - Euler-Cromer method<br>
+### Simple Pendulum - Euler-Cromer method
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_2.png)
 
-* Damped Pendulum<br>
+### Damped Pendulum
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_3.png)
 
-* Driven Pendulum<br>
+### Driven Pendulum
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_4.png)
 
-* Nonlinear Pendulum<br>
+### Nonlinear Pendulum
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-1.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-2.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/figure_5-3.png)
