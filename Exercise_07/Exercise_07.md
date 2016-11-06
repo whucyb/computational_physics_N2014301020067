@@ -4,22 +4,22 @@
 Use python to study the oscillatory motion and chaos.
 
 ## Background
-* Simple pendulum
+* Simple pendulum<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta)
 
-* Euler method
+* Euler method<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega%20_%7Bi&plus;1%7D%3D%5Comega%20_%7Bi%7D-%28g/l%29%5Ctheta%20_i%5CDelta%20t%20%5C%5C%20%5Ctheta%20_%7Bi&plus;1%7D%3D%5Ctheta%20_i&plus;%5Comega%20_i%5CDelta%20t%20%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)
 
-* Euler-Cromer method
+* Euler-Cromer method<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega%20_%7Bi&plus;1%7D%3D%5Comega%20_%7Bi%7D-%28g/l%29%5Ctheta%20_i%5CDelta%20t%20%5C%5C%20%5Ctheta%20_%7Bi&plus;1%7D%3D%5Ctheta%20_i&plus;%5Comega%20_%7Bi&plus;1%7D%5CDelta%20t%20%5C%5C%20t_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)
 
-* Damped pendulum
+* Damped pendulum<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D)
 
-* Driven, damped pendulum
+* Driven, damped pendulum<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D&plus;F_D%5Csin%20%28%5COmega%20_Dt%29)
 
-* Driven, damped, nonlinear pendulum
+* Driven, damped, nonlinear pendulum<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Csin%20%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D&plus;F_D%5Csin%20%28%5COmega%20_Dt%29)
 
 ## Program
@@ -100,6 +100,10 @@ Write a program to calculate and compare the behavior of two, nearly indentical 
 5. ![](http://latex.codecogs.com/gif.latex?q%3D1/2%2Cl%3Dg%3D9.8%2C%5COmega_D%3D2/3%2C%5Ctheta_%7B1%7D%280%29%3D0.8%2C%5CDelta%20%5Ctheta%280%29%20%3D0.001)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/5.png)
 
+From these figures above, we can find that:<br>
+For periodic system, the Lyapunov exponent is negative.<br>
+For chaotic system, the Lyapunov exponent is positive.
+
 ### Problem 3.14.
 Repeat the previous problem, but give the two pendulums slightly different damping factors. How does the value of the Lyapunov exponent compare with that found in Figure 3.7?<br>
 <br>
@@ -119,3 +123,15 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 5. ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3D1)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/9.png)
+
+From these figures above, we can find that:<br>
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3D0), the Lyapunov exponent is negative.
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3E%200), the Lyapunov exponent is about zero.
+
+## Conclusion
+There is chaos in oscillatory motion.
+
+## Reference
+* Wikipedia
+
+* 《Computational Physics》 (Second Edition)
