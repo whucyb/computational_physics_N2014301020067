@@ -125,7 +125,7 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/9.png)
 
 From these figures above, we can find that:<br>
-When ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3D0), the Lyapunov exponent is negative.
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3D0), the Lyapunov exponent is negative.<br>
 When ![](http://latex.codecogs.com/gif.latex?%5CDelta%20q%3E%200), the Lyapunov exponent is about zero.
 
 ## Conclusion
