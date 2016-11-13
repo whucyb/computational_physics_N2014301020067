@@ -7,7 +7,7 @@
 * [x] [Exercise_05 : Chapter 2 section 2.3](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_05/Exercise_05.md)
 * [x] [Exercise_06 : Chapter 2 Super Assisted Precision Strike System](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_06/Exercise_06.md)
 * [x] [Exercise_07 : Chapter 3 problem 12、13、14](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/Exercise_07.md)
-* [ ] [Exercise_08 : Chapter ? problem ?]()
+* [x] [Exercise_08 : Chapter 3 problem 18、20](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/Exercise_08.md)
 * [ ] [Exercise_09 : Chapter ? problem ?]()
 * [ ] [Exercise_10 : Chapter ? problem ?]()
 * [ ] [Exercise_11 : Chapter ? problem ?]()
