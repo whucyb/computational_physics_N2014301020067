@@ -24,7 +24,7 @@ Use python to study the oscillatory motion and chaos.
 
 ## Program
 
-### [Click here to see the code.]
+### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/Exercise_08.py)
 
 
 
