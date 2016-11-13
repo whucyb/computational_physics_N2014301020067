@@ -44,11 +44,11 @@ Calculate Poincaré section for the pendulum as it undergoes the period-doubling
 Calculate the bifurcation diagrams for the pendulum in the vicinity of ![](http://latex.codecogs.com/gif.latex?F_D) = 1.35 to 1.5. Make a magnified plot of the diagram (as compared to Figure 3.11) and obtain an estimate of the Feigenbaum ![](http://latex.codecogs.com/gif.latex?%5Cdelta) parameter.
 
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure 1-4.png)
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure 1.png)
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure 1-5.png)
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure 1-6.png)
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure 1-7.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-4.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-5.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-6.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-7.png)
 
 
 
