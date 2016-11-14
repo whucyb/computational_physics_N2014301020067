@@ -1,5 +1,7 @@
 # Exercise 08
 
+I'm so sorry that there are always some errors when i download and install the vpython modual, and i have no idea to solve the problem.
+
 ## Abstract
 Use python to study the oscillatory motion and chaos further.
 
@@ -50,17 +52,27 @@ Calculate Poincaré section for the pendulum as it undergoes the period-doubling
 * ![](http://latex.codecogs.com/gif.latex?F_D) = 1.475
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/6.png)
 
+* From the figures above, we can find that in nonchaotic system, if the behavior is period n, the attractor will contain n discrete points.
+
 ### Problem 3.20.
 Calculate the bifurcation diagrams for the pendulum in the vicinity of ![](http://latex.codecogs.com/gif.latex?F_D) = 1.35 to 1.5. Make a magnified plot of the diagram (as compared to Figure 3.11) and obtain an estimate of the Feigenbaum ![](http://latex.codecogs.com/gif.latex?%5Cdelta) parameter.
 
+* ![](http://latex.codecogs.com/gif.latex?F_D) = 0 to 2
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-4.png)
+
+* ![](http://latex.codecogs.com/gif.latex?F_D) = 1.35 to 1.5
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1.png)
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-5.png)
+
+* ![](http://latex.codecogs.com/gif.latex?F_D) = 1.475 to 1.485
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-5.png)<br>
+Enlarge the two parts to see their structures.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-6.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-7.png)
 
+* From the figures above, we can find that there are fractal structures in bifurcation diagrams.
+
 ## Conclusion
-The chaos in oscillatory motion has something to do with fractal geometry.
+The chaos in nonlinear pendulum has something to do with fractal geometry, and it is so surprising!
 
 ## Reference
 * [Chapter 3 Oscillatory Motion and Chaos_Cai Hao_Wuhan University](https://www.evernote.com/shard/s140/sh/0724815b-79a9-4357-9e85-416c33cb1b69/e2b0667446e6f7d74181969ed0c7c357)
