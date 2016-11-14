@@ -24,7 +24,7 @@ Use python to study the oscillatory motion and chaos further.
 * Driven, damped, nonlinear pendulum<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E2%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Csin%20%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D&plus;F_D%5Csin%20%28%5COmega%20_Dt%29)
 
-* Feigenbaum ![](http://latex.codecogs.com/gif.latex?%5Cdelta)
+* Feigenbaum ![](http://latex.codecogs.com/gif.latex?%5Cdelta)<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cdelta%20_n%5Cequiv%20%5Cfrac%7BF_n-F_%7Bn-1%7D%7D%7BF_%7Bn&plus;1%7D-F_n%7D)
 
 ## Program
@@ -70,6 +70,8 @@ Enlarge the two parts to see their structures.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/figure_1-7.png)
 
 * From the figures above, we can find that there are fractal structures in bifurcation diagrams.
+
+* The program still needs to be improved to abtain an estimate of the Feigenbaum ![](http://latex.codecogs.com/gif.latex?%5Cdelta) parameter.
 
 ## Conclusion
 The chaos in nonlinear pendulum has something to do with fractal geometry, and it is so surprising!
