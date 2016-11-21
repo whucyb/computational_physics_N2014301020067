@@ -29,8 +29,10 @@ Study the behavior for other types of tables. One interesting possibility is a s
 
 2. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/3.png)
+The figure is quite different from that in the textbook. Try to change the value of ![](http://latex.codecogs.com/gif.latex?x_0).<br>
 ![](http://latex.codecogs.com/gif.latex?x_0%3D0%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/3-1.png)
+Then, the figure is similar to that in the textbook.
 
 3. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.1)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/4.png)
@@ -66,7 +68,7 @@ Study the behavior for other types of tables. One interesting possibility is a s
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/12.png)
  
  4. ![](http://latex.codecogs.com/gif.latex?x_0%3D1.5%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/12.png)
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/13.png)
  
  5. ![](http://latex.codecogs.com/gif.latex?x_0%3D1.8%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/14.png)
@@ -76,7 +78,7 @@ Study the behavior for other types of tables. One interesting possibility is a s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/15.png)
 
 ## Conclusion
-The trajectory of the billiard is beautiful!
+The trajectory of the billiard is so beautiful !
 
 ## Reference
 * [Chapter 3 Oscillatory Motion and Chaos_Cai Hao_Wuhan University](https://www.evernote.com/shard/s140/sh/0724815b-79a9-4357-9e85-416c33cb1b69/e2b0667446e6f7d74181969ed0c7c357)
