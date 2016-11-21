@@ -23,6 +23,7 @@ Study the behavior for other types of tables. One interesting possibility is a s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/1.png)
 
 * Stadium billiard<br>
+
 1. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.001)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/2.png)
 
