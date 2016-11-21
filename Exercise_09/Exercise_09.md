@@ -14,12 +14,28 @@ hence, the velocity after reflection from the wall is<br>
 
 ### Question 3.31.
 Study the behavior for other types of tables. One interesting possibility is a square table with a circular interior wall located either in the center, or slightly off-center. Another possibility is an elliptical table.
+* Square table<br>
+![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/0.png)
+
+* Circular stadium<br>
+![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/1.png)
+
+* Stadium billiard<br>
+1. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.001)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/2.png)
+
+2. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/3.png)
+![](http://latex.codecogs.com/gif.latex?x_0%3D0%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/3-1.png)
+
+3. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.1)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/4.png)
+
+* Elliptical table<br>
+![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/5.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/6.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/7.png)
@@ -30,6 +46,9 @@ Study the behavior for other types of tables. One interesting possibility is a s
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/12.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/12.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/14.png)
+
+* A square table with a circulai interior wall located in the center<br>
+![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/15.png)
 
 ## Conclusion
