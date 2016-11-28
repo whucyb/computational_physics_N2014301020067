@@ -42,8 +42,6 @@ class elliptical_orbit(object):
         plt.title('Simulation of elliptical orbit')
         plt.xlabel('x (AU)')
         plt.ylabel('y (AU)')
-        plt.xlim(-5,20)
-        plt.ylim(-10,10)
         plt.legend([p],['a = %.1f  e = %.1f'%(self.a,self.e) + r'  $T^2/a^3$' + ' = %.10f'%self.c[0]],loc = 'best')
         plt.show()
     def show_results_2(self):
@@ -52,7 +50,5 @@ class elliptical_orbit(object):
         plt.title('Simulation of elliptical orbit')
         plt.xlabel('x (AU)')
         plt.ylabel('y (AU)')
-        plt.xlim(-1,1)
-        plt.ylim(-1,1)
         plt.legend([p],[r'$\beta$' + ' = %.2f'%self.beta],loc = 'best')
         plt.show()
