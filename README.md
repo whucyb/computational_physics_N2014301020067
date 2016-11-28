@@ -9,7 +9,7 @@
 * [x] [Exercise_07 : Chapter 3 problem 12、13、14](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_07/Exercise_07.md)
 * [x] [Exercise_08 : Chapter 3 problem 18、20](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_08/Exercise_08.md)
 * [x] [Exercise_09 : Chapter 3 problem 31](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/Exercise_09.md)
-* [ ] [Exercise_10 : Chapter ? problem ?]()
+* [x] [Exercise_10 : Chapter 4 problem 8、9](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/Exercise_10.md)
 * [ ] [Exercise_11 : Chapter ? problem ?]()
 * [ ] [Exercise_12 : Chapter ? problem ?]()
 * [ ] [Exercise_13 : Chapter ? problem ?]()
