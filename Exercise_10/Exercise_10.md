@@ -43,7 +43,7 @@ The square of the orbital period of a planet is directly proportional to the cub
 
 * Keep a = 1 AU，and change the value of e.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_1.gif)<br>
-(We can see that, when e > 0.7, the trajectory is not stable. Perhaps the reason is that the accumulated error exists.)
+(We can see that, when e > 0.7, the trajectory is unstable. Perhaps the reason is that the accumulated error exists.)
 
 * Keep e = 0.7，and change the value of a.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_2.gif)
@@ -52,11 +52,24 @@ The square of the orbital period of a planet is directly proportional to the cub
 
 ### Question 4.9.
 
+* Keep a = 5/8 AU, e = 3/5 and change the value of ![](http://latex.codecogs.com/gif.latex?%5Cbeta).<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_3.gif)
+
+* From the gif above, we can see that orbits are unstable for the value of ![](http://latex.codecogs.com/gif.latex?%5Cbeta) that is not precisely 2.
+
+* Keep a = 5 AU, ![](http://latex.codecogs.com/gif.latex?%5Cbeta) = 2.05 and change the value of e.<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_4.gif)
+
+* From the gif above, we can see that orbits that more nearly circular rotate more slowly than those that are highly elliptical.
 
 ## Conclusion
 
+The planetary motion is interesting.
 
 ## Reference
 
 * 《Computational Physics》 (Second Edition)
+
+* Wikipedia
+
+* NASA
