@@ -26,7 +26,7 @@ Then, use the Euler-Cromer method we have<br>
 
 1. First law<br>
 The orbit of every planet is an ellipse with the Sun at one of the two foci.<br>
-![](https://upload.wikimedia.org/wikipedia/commons/1/1a/Kepler-first-law.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kepler-first-law.svg/203px-Kepler-first-law.svg.png)
 
 2. Second law<br>
 A line joining a planet and the Sun sweeps out equal areas during equal intervals of time.<br>
