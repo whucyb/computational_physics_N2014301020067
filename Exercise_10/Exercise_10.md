@@ -41,9 +41,14 @@ The square of the orbital period of a planet is directly proportional to the cub
 
 ### Question 4.8.
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_1.gif)
+* Keep a = 1 AU，and change the value of e.<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_1.gif)<br>
+(We can see that, when e > 0.7, the trajectory is not stable. Perhaps the reason is that the accumulated error exists.)
 
+* Keep e = 0.7，and change the value of a.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/GIF_2.gif)
+
+* From the gifs above, we can see the value of ![](http://latex.codecogs.com/gif.latex?T%5E2/a%5E3) is arround 1. Then, the Kepler's third law for elliptical orbits has been verified.
 
 ### Question 4.9.
 
