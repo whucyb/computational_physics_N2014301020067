@@ -26,11 +26,11 @@ Then, use the Euler-Cromer method we have<br>
 
 1. First law<br>
 The orbit of every planet is an ellipse with the Sun at one of the two foci.<br>
-![](https://en.wikipedia.org/wiki/File:Kepler-first-law.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/1/1a/Kepler-first-law.svg)
 
 2. Second law<br>
 A line joining a planet and the Sun sweeps out equal areas during equal intervals of time.<br>
-![](https://en.wikipedia.org/wiki/File:Kepler-second-law.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/6/69/Kepler-second-law.gif)
 
 3. Third law<br>
 The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit.<br>
