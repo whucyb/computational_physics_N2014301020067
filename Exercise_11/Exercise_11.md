@@ -26,7 +26,7 @@ where  is the distance from the center fo mass to Saturn
 
 
 ## Program
-### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/Exercise_11.py)
+### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/Exercise_11.py)
 
 ### Question 4.19.
 Study the behavior of our model for Hyperion for dofferent initial conditions. Estimate the Lyapunov exponent from calculations of \Delta \theta, such as those shown in Figure 4.19. Examine how this exponent varies as a function of the eccentricity of the orbit.
