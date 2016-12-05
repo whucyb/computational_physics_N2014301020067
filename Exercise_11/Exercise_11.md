@@ -5,17 +5,16 @@ Use the python to study the chaotic tumbling of Hyperion.
 
 ## Background
 
-To simulate the motion of Hyperion we will first make few simplifying assumptions.Our goal will not be to perform a relastic simulations.Rather,our objective is simply to show that the motion of such an irregularly shaped moon can be chaotic.With that goal in mind we consider the model with two bodies.We have two particles  and ,connected by a massless rod in orbit around a massive object located at the origin. 
-There are two forces acting on each of the masses,the force of gravity from Saturn and the force from the rod.Since we are interested in the motion about the center of mass,the force from the rod does not contribute.
-
-. 
-The coordinateed of the center of mass are ,so that  is the vector from the center of mass to .The torque on  is then: 
-
-With a similiar expression for .The total torque on the moon is just ,and this is related to the time derivtive of  by: 
-
-where  is the moment of inertia.Putting this all together yields, after some algebra. 
-
-where  is the distance from the center fo mass to Saturn
+To simulate the motion of Hyperion we will first make few simplifying assumptions. Our goal will not be to perform a relastic simulations. Rather, our objective is simply to show that the motion of such an irregularly shaped moon can be chaotic. With that goal in mind we consider the model with two particles. We have two particles ![](http://latex.codecogs.com/gif.latex?m_1) and ![](http://latex.codecogs.com/gif.latex?m_2), connected by a massless rod in orbit around a massive object located at the origin.<br>
+There are two forces acting on each of the masses, the force of gravity from Saturn and the force from the rod. Since we are interested in the motion (and thus the torque) about the center of mass, the force from the rod does not contribute. THe gravitational force on ![](http://latex.codecogs.com/gif.latex?m_1) can be written as<br>
+![](http://latex.codecogs.com/gif.latex?%5Cvec%7BF_1%7D%3D-%5Cfrac%7BGM_%7BSat%7Dm_1%7D%7Br_%7B1%7D%5E%7B3%7D%7D%28x_1%5Chat%7Bi%7D&plus;y_1%5Chat%7Bj%7D%29),<br>
+where ![](http://latex.codecogs.com/gif.latex?M_%7BSat%7D) is the mass of Saturn, ![](http://latex.codecogs.com/gif.latex?r_1) is the distance from Saturn to ![](http://latex.codecogs.com/gif.latex?m_1), and ![]() and ![]() are unit vectors in the x and y directions. The coordinateed of the center of mass are ![](http://latex.codecogs.com/gif.latex?%28x_c%2Cy_c%29), so that ![](http://latex.codecogs.com/gif.latex?%28x_1-x_c%29%5Chat%7Bi%7D&plus;%28y_1-y_c%29%5Chat%7Bj%7D) is the vector from the center of mass to ![](http://latex.codecogs.com/gif.latex?m_1). The torque on ![](http://latex.codecogs.com/gif.latex?m_1) is then<br> 
+![](http://latex.codecogs.com/gif.latex?%5Cvec%7B%5Ctau_1%7D%3D%5B%28x_1-x_c%29%5Chat%7Bi%7D&plus;%28y_1-y_c%29%5Chat%7Bj%7D%5D%5Ctimes%20%5Cvec%7BF_1%7D),<br>
+with a similiar expression for ![](http://latex.codecogs.com/gif.latex?%5Cvec%7B%5Ctau_2%7D). The total torque on the moon is just ![](http://latex.codecogs.com/gif.latex?%5Cvec%7B%5Ctau_1%7D&plus;%5Cvec%7B%5Ctau_2%7D), and this is related to the time derivtive of ![](http://latex.codecogs.com/gif.latex?%5Comega) by<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Cvec%7B%5Comega%20%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Cfrac%7B%5Cvec%7B%5Ctau_1%7D&plus;%5Cvec%7B%5Ctau_2%7D%7D%7BI%7D),<br>
+where ![](http://latex.codecogs.com/gif.latex?I%20%3Dm_1%5Cleft%20%7C%20r_1%20%5Cright%20%7C%5E2&plus;m_2%5Cleft%20%7C%20r_2%20%5Cright%20%7C%5E2) is the moment of inertia. Putting this all together yields, after some algebra,<br>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Capprox%20-%5Cfrac%7B3GM_%7BSat%7D%7D%7Br_%7Bc%7D%5E%7B5%7D%7D%28x_csin%5Ctheta%20-y_ccos%5Ctheta%20%29%28x_ccos%5Ctheta%20&plus;y_csin%5Ctheta%29),<br>
+where ![](http://latex.codecogs.com/gif.latex?r_c) is the distance from the center of mass to Saturn.
 
 
 
