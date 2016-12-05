@@ -33,12 +33,14 @@ where ![](http://latex.codecogs.com/gif.latex?r_c) is the distance from the cent
 ## Program
 ### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/Exercise_11.py)
 
-### Question 4.19.
-Study the behavior of our model for Hyperion for dofferent initial conditions. Estimate the Lyapunov exponent from calculations of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20%5Ctheta), such as those shown in Figure 4.19. Examine how this exponent varies as a function of the eccentricity of the orbit.<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/1.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/2.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/3.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/4.png)
+
+### Question 4.19.
+Study the behavior of our model for Hyperion for dofferent initial conditions. Estimate the Lyapunov exponent from calculations of ![](http://latex.codecogs.com/gif.latex?%5CDelta%20%5Ctheta), such as those shown in Figure 4.19. Examine how this exponent varies as a function of the eccentricity of the orbit.<br>
+
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/5.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/6.png)
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/7.png)
