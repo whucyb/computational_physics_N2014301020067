@@ -9,7 +9,7 @@ Use the python to study the chaotic tumbling of Hyperion.
 Hyperion, also known as Saturn VII, is a moon of Saturn discovered by William Cranch Bond, George Phillips Bond and William Lassell in 1848. It is distinguished by its irregular shape, its chaotic rotation, and its unexplained sponge-like appearance. It was the first non-round moon to be discovered.<br>
 The moon is named after Hyperion, the Titan god of watchfulness and observation – the elder brother of Cronus, the Greek equivalent of Saturn – in Greek mythology. It is also designated Saturn VII. The adjectival form of the name is Hyperionian.<br>
 ![](http://imgsrc.baidu.com/baike/pic/item/cb8065380cd7912352cf02fcaf345982b2b7800f.jpg)<br>
-（Hyperion in Japanese manga 《Saint Seiya》）
+（Hyperion in Japanese manga 《Saint Seiya》）<br>
 Hyperion's discovery came shortly after John Herschel had suggested names for the seven previously-known satellites of Saturn in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. William Lassell, who saw Hyperion two days after William Bond, had already endorsed Herschel's naming scheme and suggested the name Hyperion in accordance with it. He also beat Bond to publication.
 
 * Simulation<br>
@@ -23,14 +23,6 @@ with a similiar expression for ![](http://latex.codecogs.com/gif.latex?%5Cvec%7B
 where ![](http://latex.codecogs.com/gif.latex?I%20%3Dm_1%5Cleft%20%7C%20r_1%20%5Cright%20%7C%5E2&plus;m_2%5Cleft%20%7C%20r_2%20%5Cright%20%7C%5E2) is the moment of inertia. Putting this all together yields, after some algebra,<br>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Capprox%20-%5Cfrac%7B3GM_%7BSat%7D%7D%7Br_%7Bc%7D%5E%7B5%7D%7D%28x_csin%5Ctheta%20-y_ccos%5Ctheta%20%29%28x_ccos%5Ctheta%20&plus;y_csin%5Ctheta%29),<br>
 where ![](http://latex.codecogs.com/gif.latex?r_c) is the distance from the center of mass to Saturn.
-
-
-
-
-
-
-
-
 
 ## Program
 ### [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/Exercise_11.py)
