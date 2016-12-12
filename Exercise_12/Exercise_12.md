@@ -27,21 +27,35 @@ In numerical linear algebra, the Gauss–Seidel method, also known as the Liebma
 In numerical linear algebra, the method of simultaneous over-relaxation (SOR) is a variant of the Gauss–Seidel method for solving a linear system of equations, resulting in faster convergence. A similar method can be used for any slowly converging iterative process.
 It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel in 1950 for the purpose of automatically solving linear systems on digital computers. Over-relaxation methods had been used before the work of Young and Frankel. An example is the method of Lewis Fry Richardson, and the methods developed by R. V. Southwell. However, these methods were designed for computation by human calculators, and they required some expertise to ensure convergence to the solution which made them inapplicable for programming on digital computers. These aspects are discussed in the thesis of David M. Young, Jr.
 
-## Problem 5.1.
+## Problem 5.1. & 5.3.
 
+* The first boundary condition is
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2C-0.3%5Cleq%20x%5Cleq%200.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
-## Problem 5.3.
+* The second boundary condition is
+ 
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%20-1%20%26%20%2Cx%3D0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
-1. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%20-1%20%26%20%2Cx%3D0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+Now, let's cosider other boundary conditions.
 
-2. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D0%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+1. 
 
-3. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D0%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
-4. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+2. 
 
-5. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
-6. ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+3. 
 
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+4. 
+
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+5. 
+
+![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+## problem 5.7.
