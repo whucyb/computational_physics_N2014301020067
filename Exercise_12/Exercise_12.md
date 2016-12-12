@@ -1,4 +1,4 @@
-# Exercuse 12
+# Exercise 12
 
 ## Abstract
 Use python to solve Laplace's equation
@@ -88,7 +88,14 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/13-1.png)
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/14-1.png)
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/15-1.png)
+ 
+6. 
 
+ ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%20%5Cfrac%7B10y%7D%7B3%7D%20%26%20%2Cx%3D-0.3%5C%20and%5C%20-0.3%3C%20y%5Cleq%200.3%5C%5C%20-%5Cfrac%7B10y%7D%7B3%7D%20%26%20%2C%20x%3D0.3%5C%20and%5C%20-0.3%5Cleq%20y%3C%200.3%5C%5C%20%5Cfrac%7B10x%7D%7B3%7D%20%26%20%2C-0.3%5Cleq%20x%3C%200.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-%5Cfrac%7B10x%7D%7B3%7D%20%26%20%2C%20-0.3%3C%20x%5Cleq%200.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/16.png)
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/17.png)
+ ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/18.png)
 ## problem 5.7.
 
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/2.py)
