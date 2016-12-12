@@ -88,3 +88,17 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/15-1.png)
 
 ## problem 5.7.
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/figure_1.png)
+
+We can see that the speeds of convergence of Jacobi method and Gauss-Seidel method are almost same while the SOR method has a faster speed of convergence. What's more, for Jacobi method and Gauss-Seidel method, ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Cpropto%20L%5E2), while for SOR method, ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Cpropto%20L).
+
+## Conclusion
+
+Use relaxation method can solve Laplace's equation.
+
+## Reference
+
+* 《Computational Physics》 (Second Edition)
+
+* Wikipedia
