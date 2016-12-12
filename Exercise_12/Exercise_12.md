@@ -3,6 +3,8 @@
 ## Abstract
 Use python to solve Laplace's equation
 
+![](http://n1.itc.cn/img8/wb/recom/2016/07/14/146849653156029610.JPEG)
+
 ## Background
 * Laplace's equation
 
