@@ -29,6 +29,8 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
 
 ## Problem 5.1. & 5.3.
 
+[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/1.py)
+
 * The first boundary condition is
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2C-0.3%5Cleq%20x%5Cleq%200.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
@@ -88,6 +90,8 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/15-1.png)
 
 ## problem 5.7.
+
+[Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/2.py)
 
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/figure_1.png)
 
