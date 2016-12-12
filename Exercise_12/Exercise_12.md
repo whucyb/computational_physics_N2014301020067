@@ -30,11 +30,20 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
 ## Problem 5.1. & 5.3.
 
 * The first boundary condition is
+
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2C-0.3%5Cleq%20x%5Cleq%200.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/4.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/5.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/6.png)
 
 * The second boundary condition is
  
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%20-1%20%26%20%2Cx%3D0.3%5C%20and%5C%20-0.3%5Cleq%20y%5Cleq%200.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/2.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/3.png)
 
 Now, let's cosider other boundary conditions.
 
@@ -42,20 +51,40 @@ Now, let's cosider other boundary conditions.
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D0%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/7.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/8.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/9.png)
+
 2. 
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/10.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/11.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/12.png)
 
 3. 
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/10-1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/11-1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/12-1.png)
+
 4. 
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%20-1%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
 
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/13.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/14.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/15.png)
+
 5. 
 
 ![](http://latex.codecogs.com/gif.latex?V%3D%5Cbegin%7Bcases%7D%200%20%26%20%2Cx%3D%5Cpm%201%20%5C%20or%5C%20y%3D%5Cpm%201%20%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2Cx%3D-0.3%5C%20and%5C%20y%3D-0.3%5C%5C%201%20%26%20%2C%20x%3D0.3%5C%20and%5C%20y%3D0.3%5C%5C%200%20%26%20%2Cother%20%5Cend%7Bcases%7D)
+
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/13-1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/14-1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/15-1.png)
 
 ## problem 5.7.
