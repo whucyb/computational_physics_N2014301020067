@@ -12,6 +12,5 @@
 * [x] [Exercise_10 : Chapter 4 problem 8、9](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_10/Exercise_10.md)
 * [x] [Exercise_11 : Chapter 4 problem 19、20](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_11/Exercise_11.md)
 * [x] [Exercise_12 : Chapter 5 problem 1、3、7](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/Exercise_12.md)
-* [ ] [Exercise_13 : Chapter ? problem ?]()
-* [ ] [Exercise_14 : Chapter ? problem ?]()
+* [ ] [Exercise_13 : Chapter 6 problem ?]()
 * [ ] [Final Project : ?]()
