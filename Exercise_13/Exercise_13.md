@@ -67,11 +67,11 @@ Now, let's consider other initial string profile:
 
 1. <br>
 ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3D%5Cbegin%7Bcases%7D%201%20%26%20%5Ctext%7B%20if%20%7D%200.3%5Cleq%20x%5Cleq0.7%20%5C%5C%200%20%26%20%5Ctext%7B%20if%20%7D%20x%3C0.3%5C%20or%5C%20x%3E0.7%20%5Cend%7Bcases%7D)<br>
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/5.gif)
 
 2. <br>
 ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dsin3%5Cpi%20x)<br>
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/6.gif)
 
 ## Problem 6.12.
 
