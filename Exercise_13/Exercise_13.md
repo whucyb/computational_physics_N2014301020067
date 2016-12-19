@@ -49,37 +49,57 @@ The piano is an acoustic, stringed musical instrument, in which the strings are 
 ## programm
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/Exercise_13.py)
 
+Firstly, let's take the initial string profile to be<br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dexp%5B-1000%28x-0.3%29%5E2%5D)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)<br>
+Secondly, take the initial string profile to be<br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dexp%5B-1000%28x-0.5%29%5E2%5D)<br>
+and observe the signal at x = 0.05,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.png)<br>
+Then, we obtain the power spectrum,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.png)<br>
+If the string is excited 5 percent from its center, the signal is,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.png)<br>
+and we can obtain the power spectrum,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/4.png)
+
+Now, let's consider other initial string profile:
+
+1. <br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3D%5Cbegin%7Bcases%7D%201%20%26%20%5Ctext%7B%20if%20%7D%200.3%5Cleq%20x%5Cleq0.7%20%5C%5C%200%20%26%20%5Ctext%7B%20if%20%7D%20x%3C0.3%5C%20or%5C%20x%3E0.7%20%5Cend%7Bcases%7D)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.png)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.png)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.png)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/4.png)
+2. <br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dsin3%5Cpi%20x)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)
 
 ## Problem 6.12.
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.gif)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/5.png)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/6.png)
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/7.png)
-
+Firstly, let's take the initial string profile to be<br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3D%5Cbegin%7Bcases%7D%20x/0.3%20%26%20%5Ctext%7B%20if%20%7D%20x%5Cleq0.3%20%5C%5C%20%281-x%29/0.7%20%26%20%5Ctext%7B%20if%20%7D%20x%3E0.3%20%5Cend%7Bcases%7D)<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.gif)<br>
+and observe the signal at x = 0.05,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/5.png)<br>
+Then, we obtain the power spectrum,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/6.png)<br>
+If the string is excited 5 percent from x = 0.3, the signal is,<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/7.png)<br>
+and we can obtain the power spectrum,<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/8.png)
  
 ## problem 6.13.
-
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.gif)
-
+Firstly, let's take the initial string profile to be<br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dexp%5B-1000%28x-0.3%29%5E2%5D)<br>
+and observe the signal at x = 0.05、0.10、0.40、0.50<br>
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.gif)<br>
+Scondly, change the initial string profile to be<br>
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dexp%5B-1000%28x-0.5%29%5E2%5D)<br>
+and observe the signal at x = 0.05、0.10、0.40、0.50<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/4.gif)
 
 ## Conclusion
 
-Use relaxation method can solve Laplace's equation.
+Use computer to simulate the wave motion can help us understand the theory better.
 
 ## Reference
 
