@@ -49,33 +49,33 @@ The piano is an acoustic, stringed musical instrument, in which the strings are 
 ## programm
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/Exercise_13.py)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/1.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.gif)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/1.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/1.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/2.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/3.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/4.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/4.png)
 
 ## Problem 6.12.
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/2.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/2.gif)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/5.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/5.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/6.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/6.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/7.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/7.png)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/8.png)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/8.png)
  
 ## problem 6.13.
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/3.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/3.gif)
 
-![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_12/4.gif)
+![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/4.gif)
 
 ## Conclusion
 
