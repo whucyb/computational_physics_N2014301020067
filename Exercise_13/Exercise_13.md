@@ -1,9 +1,11 @@
 # Exercise 13
 
 ## Abstract
+
 Use python to solve problems associated with wave motion.
 
 ## Background
+
 * Wave
 
 ![](http://s16.sinaimg.cn/mw690/0064m7ygzy74YHGwyaH5f&690)
@@ -47,6 +49,7 @@ The piano is an acoustic, stringed musical instrument, in which the strings are 
 ![](http://img23.hc360.cn/23/busin/830/444/b/23-83044403.gif)
 
 ## programm
+
 [Click here to see the code.](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/Exercise_13.py)
 
 Firstly, let's take the initial string profile to be<br>
@@ -88,6 +91,7 @@ and we can obtain the power spectrum,<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_13/8.png)
  
 ## problem 6.13.
+
 Firstly, let's take the initial string profile to be<br>
 ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dexp%5B-1000%28x-0.3%29%5E2%5D)<br>
 and observe the signal at x = 0.05、0.10、0.40、0.50<br>
