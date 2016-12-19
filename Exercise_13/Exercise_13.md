@@ -3,7 +3,7 @@
 ## Abstract
 Use python to solve problems associated with wave motion.
 
-![](http://n1.itc.cn/img8/wb/recom/2016/07/14/146849653156029610.JPEG)
+![](http://s16.sinaimg.cn/mw690/0064m7ygzy74YHGwyaH5f&690)
 
 ## Background
 * Wave
