@@ -66,4 +66,3 @@ def animate(i):
 gif = animation.FuncAnimation(f,animate,frames=len(show_t),interval=1)
 plt.show()
 
-
