@@ -43,7 +43,7 @@ while show_t[-1] < 500.0 * (10 ** (-7)):
     show_t.append(show_t[-1] + delta_t)
 
 f, ax = plt.subplots()
-ax = plt.axes(title = 'Square Well - lowest even parity level',xlim = (0,1), ylim = (0,30),xlabel = 'x',ylabel = r'$\Psi$') 
+ax = plt.axes(title = 'Wave packet spreading',xlim = (0,1), ylim = (0,30),xlabel = 'x',ylabel = r'$\Psi ^ * \Psi$') 
 p, = ax.plot([],[])
 
 
