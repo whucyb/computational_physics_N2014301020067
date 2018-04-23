@@ -12,7 +12,7 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/Beff-lcfiweights_MLP-test.png)
 
 
-###Ceff
+### Ceff
 * BDT Ceff train<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/Ceff-lcfiweights_BDT-train.png)
 
@@ -26,7 +26,7 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/Ceff-lcfiweights_MLP-test.png)
 
 
-###BROC
+### BROC
 * BDT BROC train<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/BROC-lcfiweights_BDT-train.png)
 
@@ -40,7 +40,7 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/BROC-lcfiweights_MLP-test.png)
 
 
-###CROC
+### CROC
 * BDT CROC train<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/CROC-lcfiweights_BDT-train.png)
 
@@ -54,7 +54,7 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/CROC-lcfiweights_MLP-test.png)
 
 
-###BRej
+### BRej
 * BDT BRej train<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/rejectionB-lcfiweights_BDT-train.png)
 
@@ -68,7 +68,7 @@
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/rejectionB-lcfiweights_MLP-test.png)
 
 
-###CRej
+### CRej
 * BDT CRej train<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/plot/rejectionC-lcfiweights_BDT-train.png)
 
